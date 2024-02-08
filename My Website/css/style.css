@@ -1,0 +1,155 @@
+body{
+    background-color:#f4f4f4;
+    color:#555;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:16px;
+    line-height:1.6em;
+    margin:0;
+}
+
+
+
+
+#main-footer{
+    background: #333;
+    color:#fff;
+    text-align:center;
+    padding:20px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+.cover-content {
+    position: relative;
+    padding: 20px;
+}
+    
+.cover-content h1 {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 30vw;
+    color: red;
+    text-align: center;
+    margin-top:15%;
+}
+
+.pfp {
+    max-width: 100%;
+    height: 700px;
+    display: block;
+    background-image: url('../images/adonis.jpg');
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    margin-top: 200px;
+    position: relative;
+    background-position: center top;
+    border: 10px black;
+}
+
+
+.cover-date {
+    text-align: center;
+    color: black;
+    font-size: 1.2em;
+    //margin-top: 100vw;
+}
+
+.cover-headline {
+    text-align: center;
+    color: black;
+    font-size: 2.5em;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+.box-1 {
+    margin: 0 150px;
+    border: 2px #ccc solid;
+    border-radius: 15px;
+}
+
+.bio-title {
+    text-align: center;
+    color: black;
+    font-size: 1.8em;
+    //margin-top: 5px;
+}
+
+.about-me {
+    text-align: center;
+    color: black;
+    font-size: 1.8em;
+    //margin-top: 5px;
+    
+}
+
+.box-2 {
+    margin-bottom: 20px;
+    margin: 0 150px;
+    border: 2px #ccc solid;
+    border-radius: 15px;
+}
+
+
+.interests-headline {
+    text-align: center;
+    font: bold 1.8em arial, verdana;
+    color: black;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: slategrey;
+}
+
+.box {
+    position: relative;
+    width: calc(50% - 20px); /* 50% width with spacing */
+    height: 400px;
+    //margin-bottom: 20px; /* Spacing between rows */
+    overflow: hidden;
+
+}
+
+.box img {
+    width: 100%;
+    height: 100%;
+    opacity: 0; /* Initially hide the image */
+    object-fit:contain;
+    transition: opacity 0.3s ease; /* Add transition effect */
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.box:hover img {
+    opacity: 1; /* Show the image on hover */
+}
+
+.box p {
+    text-align: center;
+}
+
+.text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1; /* Ensure text appears above the GIF */
+    text-align: center;
+    color: white; /* Optional: change text color for better visibility */
+    font-size: 1.6em;
+}
+
+
+#magazine-cover {
+    border: 3vw solid red;
+    height: 200vw;
+    box-sizing: border-box;
+}
+
